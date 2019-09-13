@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Itera</title>
+</head>
+<body>
+    <h1>Form ITERA</h1>
+    <form method="POST" action="response2.jsp"
+    enctype="multipart/form-data">
+    <label for="name">Name :</label>
+    <input type="text" id="name">
+        <br><br>
+    <label for="gender">Gender :</label>
+    <input type="radio" id="man" name="gender"><label for="man">Man</label>
+    <input type="radio" id="woman" name="gender"><label for="woman">Woman</label>
+        <br><br>
+    <label for="address">Address :</label>
+    <input type="text" id="address">
+        <br><br>
+    <label>Country :</label>
+    <select name="Country">
+    <option value="INA">Indonesia</option>
+    <option value="JPN">Jepang</option>
+    <option value="KS">Korea Selatan</option>
+    </select>
+        <br><br>
+    <label for="email">Email :</label>
+    <input type="text" id="email">
+        <br><br>
+    <label for="photo">Photo :</label>
+    <input type="text">
+    <input type="file" name="photo" value="" width="200">
+        <br><br>
+    <label for="coment">Comment :</label>
+    <textarea></textarea>
+    <button type="submit">submit</button>
+</body>
+</html>
