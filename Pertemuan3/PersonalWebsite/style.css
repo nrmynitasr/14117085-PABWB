@@ -1,0 +1,82 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    
+}
+
+/*Profil*/
+h2{
+    color: white;
+    margin-top: 100px;
+    font: bold;
+    font-size: 30px;
+}
+h3{
+    color: aliceblue;
+}
+
+/*header*/
+#wrapper{
+    margin: auto;
+    padding: 0;
+    width: 480px;
+    height: auto;
+}
+.wrap .header{
+   background-image: url(biru.jpg);
+   
+}
+.titleprofile{
+    margin: auto;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: bisque;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.photoprofile{
+    margin: auto;
+}
+.imgprofile{
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+    color: white;
+    margin-top: 100px;
+    font: bold;
+    font-size: 40px;
+}
+
+.clear{
+    clear: both;
+}
+.badan{
+    height: 450px;
+}
+
+/*nagian sidebar*/
+.sidebar{
+    float: right;
+    padding: 20px;
+    width: 400px;
+}
+
+.sidebar h3{
+    font-weight: bold;
+    color: white;
+}
+
+.sidebar p{
+    color: white;
+}
+
+.sidebar img{
+    width: 100px;
+    height: 100px;
+}

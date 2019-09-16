@@ -1,0 +1,30 @@
+/*menu navigasi*/
+nav.menu ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-size: auto;
+}
+
+nav.menu li{
+    float: left;
+}
+
+nav.menu li a{
+   display: block;
+   color: white;
+   margin: auto;
+   text-align: center;
+   text-decoration: none;
+   font-size: 22px;
+   font-family: unset;
+   padding: 16px;
+}
+
+nav.menu li a:hover{
+    background: cyan;
+}
+
+

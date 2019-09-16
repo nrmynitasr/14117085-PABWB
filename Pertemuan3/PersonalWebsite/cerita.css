@@ -1,0 +1,25 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h3{
+    color: brown;
+    font-weight: bold;
+    font-family: Cambria;
+}
+
+p{
+    width: 1000px;
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    margin-right: 0px;
+}
+
