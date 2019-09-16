@@ -60,10 +60,10 @@ h1{
     height: 450px;
 }
 
-/*nagian sidebar*/
+/*bagian sidebar*/
 .sidebar{
     float: right;
-    padding: 20px;
+    padding: 70px;
     width: 400px;
 }
 
@@ -79,4 +79,34 @@ h1{
 .sidebar img{
     width: 100px;
     height: 100px;
+}
+
+/*conten*/
+.contents{
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.contents h3{
+   font-size: 20px;
+   font-weight: bold;
+    float: left;
+    color: black;
+}
+.contents
+
+/* clearfix*/
+.cf::before;
+.cf::after;{
+    content: " ";
+    display: table;
+}
+
+.cf::after{
+    clear: both;
+}
+
+.cf{
+    *zoom: 1;
 }
